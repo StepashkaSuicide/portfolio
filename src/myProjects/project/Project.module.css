@@ -1,0 +1,35 @@
+.project {
+    width: 250px;
+    background-color: #cdd6e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 250px;
+    height: 200px;
+    background-color: #2b5f86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.pic:hover {
+    opacity: 1;
+}
+
+.show a{
+    text-decoration: none;
+  border: 1px solid;
+}
+
+a:hover{
+   opacity: 1;
+    background-color: #abc425;
+}
