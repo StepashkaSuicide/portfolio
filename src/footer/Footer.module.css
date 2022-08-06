@@ -1,5 +1,5 @@
 .footer {
-    min-height: 15vh;
+    min-height: 11vh;
     background-color: #3f959d;
 
 }
@@ -43,5 +43,8 @@
         width: 350px;
         justify-content:space-between;
 
+    }
+    .footer {
+        min-height: 10vh;
     }
 }

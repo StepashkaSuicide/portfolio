@@ -1,5 +1,5 @@
 .contactsForm {
-    height: 50vh;
+    min-height: 17vh;
     background-color: #3f959d;
 
 }
@@ -23,17 +23,34 @@
     justify-content: space-around;
     border: 1px solid;
     width: 100%;
-    height: 22%;
+    height: 70%;
 
 
 }
+
+@media (max-width: 685px) {
+    .title  {
+        font-size: 30px;
+    }
+    .inputTextAreaBlock {
+        width: 80%;
+        height: 20%;
+    }
+    .contactsForm {
+        min-height: 15vh;
+    }
+}
+
 @media (max-width: 450px) {
     .title  {
         font-size: 30px;
     }
     .inputTextAreaBlock {
-        width: 70%;
+        width: 80%;
         height: 20%;
+    }
+    .contactsForm {
+        min-height: 15vh;
     }
 }
 @media (max-width: 360px) {
@@ -44,6 +61,7 @@
         width: 80%;
         height: 20%;
     }
+
 }
 
 
