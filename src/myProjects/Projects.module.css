@@ -1,3 +1,11 @@
+.projects {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .projectBlock {
     min-height: 50vh;
     background-color: #4ab7cd;
@@ -6,7 +14,7 @@
 .projectsContainer {
     align-items: center;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
 
 }
 
@@ -23,11 +31,12 @@
         font-size: 38px;
     }
 }
-
-.projects {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+@media (max-width: 718px) {
+    .title {
+        font-size: 25px;
+    }
+    .projects {
+        justify-content: center;
+    }
 }
+

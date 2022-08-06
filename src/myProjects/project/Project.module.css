@@ -68,3 +68,11 @@ a:hover{
     }
 }
 
+@media (max-width: 718px) {
+    .title {
+        font-size: 25px;
+    }
+    .skills {
+        justify-content: center;
+    }
+}
