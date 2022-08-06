@@ -8,9 +8,9 @@ export const Contacts = () => {
         <div className={`${sContainer.container} ${s.contactsContainer}`}>
             <h2 className={s.title}>Contacts</h2>
             <div className={s.inputTextAreaBlock}>
-                <span>Name</span>
+                {/*<span>Name</span>*/}
                 <input  type="text"  placeholder={'textName'}/>
-                <span>secondName</span>
+                {/*<span>secondName</span>*/}
                 <input type="text" placeholder={'textSecondName'}/>
 
                <textarea placeholder={'description'}/>
