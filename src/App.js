@@ -4,7 +4,9 @@ import React from "react";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Projects} from "./myProjects/Projects";
+import {Contacts} from "./contacts/Contacts";
 import {DistanceWork} from "./distanceWork/DistanceWork";
+import {Footer} from "./footer/Footer";
 
 const App = () => {
     return (
@@ -14,6 +16,8 @@ const App = () => {
             <Skills/>
             <Projects/>
             <DistanceWork/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
