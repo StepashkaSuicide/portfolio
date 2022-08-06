@@ -1,5 +1,5 @@
 .projectBlock {
-    height: 200vh;
+    min-height: 50vh;
     background-color: #4ab7cd;
 }
 
