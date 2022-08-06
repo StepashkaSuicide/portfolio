@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className={s.footer}>
 
             <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <h1>Евгений Engy</h1>
+                <h2>Евгений Engy</h2>
                 <div className={s.blocksFlex}>
                     <div className={s.blocks}></div>
                     <div className={s.blocks}></div>

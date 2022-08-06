@@ -1,21 +1,29 @@
 .skillsBlock {
-    height: 15vh;
+    height: 30vh;
     background-color: #8993e2;
 }
 
 .distanceWorkContainer {
-    align-items: center;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
+}
+.distanceWorkContainer a {
+    text-decoration: none;
+
 }
 
 .title {
+
     background-color: #aac1de;
 }
-.skills {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+
+
+@media (max-width: 360px) {
+    .title  {
+        font-size: 30px;
+    }
 }

@@ -1,5 +1,5 @@
 .projectBlock {
-    height: 100vh;
+    height: 200vh;
     background-color: #4ab7cd;
 }
 
@@ -13,6 +13,17 @@
 .title {
     background-color: #506175;
 }
+@media (max-width: 450px) {
+    .title  {
+        font-size: 35px;
+    }
+}
+@media (max-width: 360px) {
+    .title  {
+        font-size: 38px;
+    }
+}
+
 .projects {
     border: 1px solid;
     width: 100%;

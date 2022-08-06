@@ -6,7 +6,7 @@ export const DistanceWork = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.distanceWorkContainer}`}>
-                <h2 className={s.title}>Рассматриваю варианты удаленной работы</h2>
+                <h2 className={s.title}>Рассматриваю  варианты  удаленной работы</h2>
                 <a href="#">ПРИЕМЛЕМО</a>
 
             </div>

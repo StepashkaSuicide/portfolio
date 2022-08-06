@@ -7,8 +7,22 @@
     text-align: center;
 }
 
+
 .icon {
     height: 60px;
     width: 60px;
     background-color: #99d0fb;
 }
+
+
+
+
+@media (max-width: 450px) {
+    .skill h3 {
+            font-size: 30px;
+    }
+    .description {
+        font-size: 18px;
+    }
+}
+
