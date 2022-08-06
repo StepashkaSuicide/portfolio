@@ -1,5 +1,5 @@
 .footer {
-    height: 20vh;
+    min-height: 15vh;
     background-color: #3f959d;
 
 }
@@ -34,7 +34,7 @@
     flex-wrap: wrap;
 }
 .footerContainer h2 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media (max-width: 450px) {

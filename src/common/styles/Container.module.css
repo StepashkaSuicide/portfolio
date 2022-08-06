@@ -8,3 +8,15 @@
     margin: 0 auto;
     flex-wrap: wrap;
 }
+@media (max-width: 712px) {
+    .container {
+        justify-content: center;
+
+    }
+}
+@media (max-width: 1073px) {
+    .container {
+        justify-content: center;
+
+    }
+}
