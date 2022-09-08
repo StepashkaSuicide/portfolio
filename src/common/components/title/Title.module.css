@@ -1,26 +1,3 @@
-.projects {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.projectBlock {
-    background-color: #1f1f20;
-    /*min-height: 50vh;*/
-    padding: 100px 0;
-}
-
-.projectsContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-
-}
-
 .title {
     margin: 0 0 30px;
     font-family: 'Josefin Sans', sans-serif;
@@ -49,17 +26,6 @@
     font-size: 36px;
 }
 
-@media (max-width: 718px) {
-    .title {
-        font-size: 25px;
-    }
-
-    .projects {
-        justify-content: center;
-    }
-}
-
-
 @media (max-width: 450px) {
     .title {
         font-size: 35px;
@@ -72,4 +38,8 @@
     }
 }
 
-
+@media (max-width: 718px) {
+    .title {
+        font-size: 25px;
+    }
+}
